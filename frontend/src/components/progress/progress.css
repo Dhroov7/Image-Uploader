@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.4rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 3.2rem 2rem;
+    border-radius: 12px;
+    width: 40rem;
+}
+
+.bold-heading {
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+.parent-bar,
+.child-bar {
+    height: 0.6rem;
+    border-radius: 8px;
+}
+
+.parent-bar {
+    width: 34rem;
+    background: #F2F2F2;
+}
+
+@keyframes moveProgress {
+    from {
+        transform: translateX(0);
+        width: 5rem;
+    }
+    to {
+        width: 10rem;
+        transform: translateX(24rem);
+    }
+}
+
+.child-bar {
+    width: 10rem;
+    background: #2F80ED;
+    animation: moveProgress 1.8s linear infinite;
+}

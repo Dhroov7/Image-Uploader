@@ -1,0 +1,117 @@
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 3.2rem 2rem;
+    border-radius: 12px;
+}
+
+.primary-heading {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #4F4F4F;
+    line-height: 27px;
+}
+
+.file-size-text {
+    font-size: 1.4rem;
+    color: #828282;
+    font-weight: 400;
+}
+
+.uploader-image-svg {
+    width: auto;
+    height: 8.8rem;
+}
+
+.image-drop-container {
+    width: 33.8rem;
+    height: 21.8rem;
+    background-color: #F6F8FB;
+    border: 1px dashed #97BEF4;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: filter 0.3s;
+}
+
+.image-drop-container p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    letter-spacing: -0.035em;
+    color: #BDBDBD;
+}
+
+.or-text {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    letter-spacing: -0.035em;
+    color: #BDBDBD;
+}
+
+.primary-button {
+    background-color: #2F80ED;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 1.6rem 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.blur-container {
+    filter: blur(2px);
+}
+
+.success-image-container {
+    width: 33.8rem;
+    height: 22.4rem;
+}
+
+.success-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    background: #F6F8FB;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.link-container p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 0.7rem;
+}
+
+.success-icon {
+    width: 4.4rem;
+    height: 4.4rem;
+    border-radius: 50%;
+    background-color: #219653;
+}
+
+.check-icon {
+    color: white;
+    padding: 0.4rem;
+}
